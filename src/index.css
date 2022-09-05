@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Content-Container {
+    display: flex;
+    justify-content: flex-start;
+}
 .hero-image {
     height: 10rem;
     background-image: url("./Images/flowerbanner.png");
@@ -20,7 +29,19 @@
     font-size: 2.5rem;
     padding-left: 5rem;
 }
-.Content-Container {
-    display: flex;
-    justify-content: flex-start;
+.btn {
+    border: none;
+    background-color: rgb(195, 244, 158);
+    cursor: pointer;
+    padding: 1rem;
+    color: #88518a;
+    font-size: 1rem;
+    justify-content:center;
+}
+.navBar {
+    width: 130rem;
+    background-color: rgb(195, 244, 158);
+}
+body {
+    overflow-x: hidden;
 }
