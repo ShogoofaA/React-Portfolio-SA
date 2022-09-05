@@ -1,0 +1,26 @@
+.hero-image {
+    height: 10rem;
+    background-image: url("./Images/flowerbanner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+}
+.hero-text h2 {
+    float: right;
+    display: block;
+    padding-top: 5px;
+    padding-right: 5rem;
+    font-size: 2.5rem;
+    color: #88518a;
+}
+.hero-text h1 {
+    color: #88518a;
+    font-size: 2.5rem;
+    padding-left: 5rem;
+}
+.Content-Container {
+    display: flex;
+    justify-content: flex-start;
+}
