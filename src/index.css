@@ -3,10 +3,10 @@
     padding: 0;
     margin: 0;
 }
-.Content-Container {
+/* .Content-Container {
     display: flex;
     justify-content: flex-start;
-}
+} */
 .hero-image {
     height: 10rem;
     background-image: url("./Images/flowerbanner.png");
