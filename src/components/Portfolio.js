@@ -21,8 +21,8 @@ function Portfolio() {
             </div>
             <div className="box2">
                 <img src={DynamicMemes} width="300rem" height= "200rem" alt="Logo" />
-                <div class="caption">DynamicMemes</div>
-                <a className="Link"href="./assets/Images/Dynamic-Memes.png" target="_blank" rel="noopener noreferrer">Link to Project</a>
+                <div class="caption">Dynamic Memes</div>
+                <a className="Link"href="https://github.com/ShogoofaA/Dynamic-Memes" target="_blank" rel="noopener noreferrer">Link to Project</a>
             </div>
             <div className="box3">
                 <img src={MarioQuiz} width="300rem" height= "200rem" alt="Logo" />
