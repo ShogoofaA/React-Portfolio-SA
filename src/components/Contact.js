@@ -1,58 +1,21 @@
-import React, { useState } from 'react';
-import { validateEmail } from '../utils/helpers';
+import React from 'react';
 import "../index.css"
 
 function ContactForm() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = formState;
-    const [errorMessage, setErrorMessage] = useState('');
-
-
-    function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            if (!isValid) {
-                setErrorMessage('Your email is invalid.');
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if (!e.target.value.length) {
-              setErrorMessage(`${e.target.name} is required.`);
-            } else {
-              setErrorMessage('');
-            }
-        } 
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-        }
-    }
-
     return (
         <section id="contact">
-            <h1 className="contact-">Contact Me</h1>
-            <form id="contact-form" action="https://formspree.io/f/xnqrjdod" method="POST">
+            <h1 className="contact">Contact Me</h1>
                 <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
-                </div>
-                <div>
-                    <label htmlFor="email">Email Address:</label>
-                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5"  />
-                </div>
-                {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-                )}
+                    <div className="name">Input your name here:</div>
+                    <input type="text" />
+                    <div className="email">Input your Email Address here:</div>
+                    <input type="email"/>
+                    <div className="message">Please leave me a Message here:</div>
+                    <input type="text" />
                 <button type="submit" id="submit">Submit</button>
-            </form>
+                </div>
         </section>
     );
-};
+}
     
 export default ContactForm;

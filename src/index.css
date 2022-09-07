@@ -77,14 +77,13 @@ body {
 .contact-Me {
     margin-top: 1rem;
     margin-left: 1rem;
-}
-form {
-    width: 1rem;
-    margin: 4rem;
 } 
+#contact {
+    margin-top: 4rem;
+    margin-left: 14rem;
+}
 input {
     border-radius: 1rem;
-
 }
 textarea {
     width: 25rem;
