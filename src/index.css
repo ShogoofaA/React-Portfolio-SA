@@ -53,6 +53,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: .5rem;
     display: block;
 }
 .card {
@@ -71,4 +72,32 @@ body {
 }
 .card-text {
     font-size: 1.2rem;
+    font-family: "Quicksand", sans-serif;
+}
+.contact-Me {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+form {
+    width: 1rem;
+    margin: 4rem;
+} 
+input {
+    border-radius: 1rem;
+
+}
+textarea {
+    width: 25rem;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    border-radius: 1rem;
+}
+#submit {
+    display: flex;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-color: rgb(25, 136, 68);
+    cursor: pointer;
+    background-image: linear-gradient(315deg, rgb(25, 136, 68) 0%, rgb(0, 255, 115) 74%);
+    box-shadow: 3px 5px;
 }
