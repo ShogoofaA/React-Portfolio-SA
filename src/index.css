@@ -119,3 +119,10 @@ textarea {
     justify-content: space-around;
     margin-top: 8rem;
 }
+.Footer {
+    height: 5.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(195, 244, 158); 
+}

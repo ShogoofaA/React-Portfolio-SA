@@ -6,6 +6,8 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio"
 import Resume from "./components/Resume"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
+
 
 import "./index.css";
 
@@ -18,6 +20,7 @@ export default function Preset() {
             <Nav setPage={setPage} About={About} Portfolio={Portfolio} Resume={Resume} Contact={Contact}/>
             {page}
             </div>
+            <Footer/>
             {/* <About/> */}
         </div>
     )
