@@ -12,6 +12,10 @@ In this react project I have resused my base Portfolio which was html/css only w
 
 - [Licensing](#licensing)
 
+# Link
+
+Here is a link to my deployed website: https://lit-woodland-01886.herokuapp.com/
+
 # Screenshot
 
 ![splash-page](./src/Images/localhost_3000_.png)
